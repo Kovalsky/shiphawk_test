@@ -7,3 +7,5 @@
 * rake db:drop db:create db:migrate db:seed
 
 * rails s
+
+* documentation - http://localhost:3000/api/swagger
