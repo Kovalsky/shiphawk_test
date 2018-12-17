@@ -4,7 +4,6 @@ module V1
     version 'v1', using: :path
     format :json
     prefix :api
-    formatter :json, Grape::Formatter::ActiveModelSerializers
 
     rescue_from ExchangeService::InvalidExchange do |e|
       error!(e, 422)
