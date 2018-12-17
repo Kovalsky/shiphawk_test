@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Atm.create(dispenser: {50 => 1, 25 => 2, 10 => 5, 5 => 10, 2 => 25, 1 => 50})
